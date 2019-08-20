@@ -1,9 +1,8 @@
 <template>
   <div id="app" class="hello">
 
-    <h1>Welcome to the Serverless Voting App. Now with Amplify!</h1>
-    <h4>Click to vote on this very important issue.</h4>
-    <h4>You can vote as many times as you like. Click away!</h4>
+    <h1>Fair Game</h1>
+    <h4>you make the call.</h4>
 
     <b-row align-h="center" class="mt-5">
       <b-card-group deck>
@@ -23,7 +22,7 @@
     <b-row align-h="center" class="mt-5">
       <p>Questions? Ask James <a href="https://twitter.com/jbesw">@jbesw</a>.</p>
     </b-row>
-  </div>  
+  </div>
 </template>
 
 
@@ -52,7 +51,7 @@ export default {
     updateVotes: async function () {
       const response = await API.get(this.apiName, '/votes/poll-001')
       this.votesNo = response[0].votesNo
-      this.votesYes = response[0].votesYes    
+      this.votesYes = response[0].votesYes
     }
   },
   created () {
