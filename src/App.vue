@@ -1,26 +1,26 @@
 <template>
   <div id="app" class="hello">
 
-    <h1>Fair Game</h1>
-    <h4>you make the call.</h4>
+    <h1>Fair Play</h1>
+    <h4>make the call.</h4>
 
     <b-row align-h="center" class="mt-5">
       <b-card-group deck>
-        <b-card bg-variant="success" text-variant="white" header="Vote Yes" class="text-center" footer-tag="footer">
-          <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-          <b-button size="lg" variant="primary"  @click="vote('yes')">Button</b-button>
+        <b-card bg-variant="success" text-variant="white" header="Vote Fair" class="text-center" footer-tag="footer">
+          // <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+          <b-button size="lg" variant="primary"  @click="vote('yes')">Fair</b-button>
           <em slot="footer">{{ votesYes }} voted</em>
         </b-card>
 
-        <b-card bg-variant="danger" text-variant="white" header="Vote No" class="text-center" footer-tag="footer">
-          <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-          <b-button size="lg" variant="primary" @click="vote('no')">Button</b-button>
+        <b-card bg-variant="danger" text-variant="white" header="Vote Foul" class="text-center" footer-tag="footer">
+          // <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+          <b-button size="lg" variant="primary" @click="vote('no')">Foul</b-button>
           <em slot="footer">{{ votesNo }} voted</em>
         </b-card>
       </b-card-group>
     </b-row>
     <b-row align-h="center" class="mt-5">
-      <p>Questions? Ask James <a href="https://twitter.com/jbesw">@jbesw</a>.</p>
+      <p>Questions? Ask <a href="mailto:davmien@amazon.com?Subject=Fair%20Play" target="_top">Davin</a>.</p>
     </b-row>
   </div>
 </template>
