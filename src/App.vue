@@ -7,13 +7,11 @@
     <b-row align-h="center" class="mt-5">
       <b-card-group deck>
         <b-card bg-variant="success" text-variant="white" header="Vote Fair" class="text-center" footer-tag="footer">
-          // <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
           <b-button size="lg" variant="primary"  @click="vote('yes')">Fair</b-button>
           <em slot="footer">{{ votesYes }} voted</em>
         </b-card>
 
         <b-card bg-variant="danger" text-variant="white" header="Vote Foul" class="text-center" footer-tag="footer">
-          // <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
           <b-button size="lg" variant="primary" @click="vote('no')">Foul</b-button>
           <em slot="footer">{{ votesNo }} voted</em>
         </b-card>
