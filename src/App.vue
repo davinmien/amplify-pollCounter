@@ -18,7 +18,7 @@
       </b-card-group>
     </b-row>
     <b-row align-h="center" class="mt-5">
-      <p>Questions? Ask <a href="mailto:davmien@amazon.com?Subject=Fair%20Play" target="_top">Davin</a>.</p>
+      <p>Questions? Ask <a href="mailto:davmien+davlab@amazon.com?Subject=Fair%20Play" target="_top">Davin</a>.</p>
     </b-row>
   </div>
 </template>
